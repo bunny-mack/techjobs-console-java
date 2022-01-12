@@ -1,12 +1,13 @@
 package org.launchcode.techjobs.console;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
 import java.util.Map;
 import java.util.Iterator;
+import java.util.TreeMap;
+
 
 /**
  * Created by LaunchCode
@@ -52,6 +53,7 @@ public class TechJobs {
                     // Print list of skills, employers, etc
                     for (String item : results) {
                         System.out.println(item);
+
                     }
                 }
 
